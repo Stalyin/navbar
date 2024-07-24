@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Responsive Navbar</title>
+
+    <!-- Css and Favicon links Coustoum -->
+     <link rel="icon" type="image/png" href="src/images/favicon.png">
+     <link rel="stylesheet" href="src/style/style.css">
+
+     <!-- Awesome Fonts links Coustoum -->
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">AC- <span>Code</span></a></div>   
+
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <a href="#" class="active-btn">Get Started</a>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown-menu ">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#" class="active-btn">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, deserunt?</p>
+        </section>
+    </main>
+
+    <!-- JavaScript Links Coustoum -->
+     <script src="src/js/main.js"></script>
 </body>
 </html>
